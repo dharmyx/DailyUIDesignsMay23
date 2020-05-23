@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,42 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="img/fontawesome-with-css/css/all.min.css">
     </head>
+
     <body>
         <main>
             <div class="content-bg">
-                <div class="content-inner"></div>
+                <div class="content-inner">
+                    <div class="contentbox">
+                        <div class="innercontent">
+                            <i class="fas fa-plane"></i><h2 class="brandname">Galaero</h2>
+                            <i class="fas fa-bars" id="menu"></i>
+
+                            <div class="formBox">
+                                <p class="header">
+                                    Login to your account
+                                </p>
+                                <div class="icons">
+                                    <input type="text" placeholder="Username"><i class="fas fa-user"></i>
+                                </div>
+                                <div class="icons">
+                                    <input type="password" placeholder="Password"><i class="fas fa-unlock-alt"></i>
+                                </div>
+                                <input type="checkbox" id="checkbox">
+                                <p class="remember">Remember me</p>
+                                <a href="#" class="link1">Forgot password?</a>
+                                <button type="submit" class="btn">log in</button>
+                                <div class="footer">Don't have an account? <a href="#">Sign up here.</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <script src="app.js" async defer></script>
     </body>
+
 </html>

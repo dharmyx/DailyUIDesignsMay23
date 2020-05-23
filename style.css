@@ -145,7 +145,7 @@ input[type=password] {
 .remember {
     display: inline-block;
     color: #fff;
-    font-size: 0.4rem;
+    font-size: 0.8rem;
 }
 .link1 {
     font-size: 0.4rem;
@@ -153,6 +153,7 @@ input[type=password] {
     outline: none;
     text-decoration: none;
     float: right;
+    font-size: 0.8rem;
     margin-top: 2rem;
 }
 
@@ -171,7 +172,7 @@ input[type=password] {
 }
 .footer {
     color: #fff;
-    font-size: .3rem;
+    font-size: .8rem;
     margin-bottom: 4rem;
 }
 .footer a {

@@ -1,9 +1,10 @@
 .menu-wrap {
     position: fixed;
-    top: 65px;
-    left: 323px;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
+
 
 .menu-wrap .toggler {
     position: absolute;
@@ -126,3 +127,6 @@
     padding: 1rem;
     text-transform: uppercase;
 }
+
+
+

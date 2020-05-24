@@ -1,12 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 
-:root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24,39,51,0.85);
-    --menu-speed: 0.75s;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -47,25 +41,29 @@ body {
     margin: 20px 35px;
     max-width: 80%;
 }
-.fa-plane {
-    font-size: 1.2rem;
-    color: #ffee7e;
-    transform: rotate(230deg);
+.innercontent-head {
+    display: grid;
+    grid-template-columns: 30px auto;
+    grid-template-areas: 
+    "a b";
+}
+.plane {
+    grid-area: a;
+    font-size: 1.4rem;
+    color: #ef9a1b;
+    padding-top: 5px;
+    transform: rotate(325deg);
 }
 .brandname {
+    grid-area: b;
     text-transform: lowercase;
     font-weight: 900;
     color: #fff;
     font-size: 1.4rem;
-    display: inline-block;
-    margin-left: 1.5rem;
+    display: block;
+    margin-left: 1rem;
 }
-.menu {
-    color: #fff;
-    float: right;
-    margin-top: 5px;
-    font-size: 1.5rem;
-}
+
 .header {
     color: #fff;
     margin: 50px auto 20px;
@@ -82,8 +80,8 @@ body {
 .icons i {
     position: absolute;
     left: 0;
-    top: 13px;
-    padding: 3px 18px;
+    top: 10px;
+    padding: 3px 14px;
     color: #fff;
     transition: .5s;
 }
@@ -99,6 +97,9 @@ input[type=text] {
     color: #fff;
     outline-style: none;
 }
+.material-icons {
+    font-size: 1rem;
+}
 .icons input[type=password] {
     padding-left: 45px;
 }
@@ -108,8 +109,8 @@ input[type=text] {
 .icons i {
     position: absolute;
     left: 0;
-    top: 13px;
-    padding: 3px 18px;
+    top: 10px;
+    padding: 3px 14px;
     color: #fff;
     transition: .5s;
 }
@@ -151,15 +152,15 @@ input[type=password] {
 .remember {
     display: inline-block;
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    margin-top: 2rem;
 }
 .link1 {
-    font-size: 0.4rem;
     color: #fff;
     outline: none;
     text-decoration: none;
     float: right;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-top: 2rem;
 }
 
@@ -171,8 +172,8 @@ input[type=password] {
     color: #042a4f;
     text-transform: uppercase;
     margin: 20px 0;
-    background-color: #f7d780;
-    border: 1px solid #f7d780;
+    background-color: #ef9a1b;
+    border: 2px solid #ef9a1b;
     outline: none;
     cursor: pointer;
 }

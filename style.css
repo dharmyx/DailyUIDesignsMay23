@@ -188,7 +188,9 @@ input[type=password] {
 
 
 @media (max-width: 900px) {
-    .menu {
+    .menu,
+    .menu1,
+    .menu2 {
         display: none;
     }
 }

@@ -102,7 +102,7 @@
 .menu-wrap .menu > div {
     background: rgb(4, 42, 79, .75);
     border-radius: 20px;
-    width: 30vw;
+    width: 50vw;
     height: 35vh;
     display: flex;
     flex: none;
